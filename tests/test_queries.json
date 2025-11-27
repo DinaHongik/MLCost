@@ -1,0 +1,604 @@
+{
+    "queries": [
+        {
+            "id": 1,
+            "query": "BERT training on 8 A100 GPUs with batch size 256",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 2,
+            "query": "ResNet-50 on 64 H100s, global batch 2048",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 3,
+            "query": "GPT3 pretraining on 256 H100 GPUs",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 4,
+            "query": "Unet3D medical imaging on 16 H100 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 5,
+            "query": "DLRM recommendation on 32 A100 GPUs with batch size 8192",
+            "category": "recommendation",
+            "scale": "medium"
+        },
+        {
+            "id": 6,
+            "query": "BERT fine-tuning on 4 V100 GPUs with batch size 128",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 7,
+            "query": "ResNet-152 on 128 A100 GPUs with batch size 4096",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 8,
+            "query": "RNNT speech recognition on 16 L40S GPUs",
+            "category": "speech",
+            "scale": "small"
+        },
+        {
+            "id": 9,
+            "query": "Diffusion model training on 32 H100s with batch size 64",
+            "category": "generative",
+            "scale": "medium"
+        },
+        {
+            "id": 10,
+            "query": "MaskRCNN object detection on 8 A100 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 11,
+            "query": "BERT pretraining on 16 H200 GPUs with batch size 512",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 12,
+            "query": "SSD object detection on 64 L40S GPUs",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 13,
+            "query": "GPT3 175B on 512 H100 GPUs",
+            "category": "nlp",
+            "scale": "xlarge"
+        },
+        {
+            "id": 14,
+            "query": "ResNet-50 on 8 L4 GPUs with batch size 128",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 15,
+            "query": "DLRM on 64 A100 GPUs with batch size 16384",
+            "category": "recommendation",
+            "scale": "medium"
+        },
+        {
+            "id": 16,
+            "query": "Unet3D on 32 H100 GPUs with batch size 32",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 17,
+            "query": "BERT on 2 RTX-4090 GPUs with batch size 64",
+            "category": "nlp",
+            "scale": "tiny"
+        },
+        {
+            "id": 18,
+            "query": "ResNet-101 on 256 A100 GPUs",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 19,
+            "query": "Diffusion XL on 64 H200 GPUs with batch size 128",
+            "category": "generative",
+            "scale": "medium"
+        },
+        {
+            "id": 20,
+            "query": "RNNT on 8 A30 GPUs with batch size 256",
+            "category": "speech",
+            "scale": "small"
+        },
+        {
+            "id": 21,
+            "query": "GPT3 training on 128 H200 GPUs with batch size 1024",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 22,
+            "query": "MaskRCNN on 16 V100 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 23,
+            "query": "DLRM on 16 L40S GPUs with batch size 4096",
+            "category": "recommendation",
+            "scale": "small"
+        },
+        {
+            "id": 24,
+            "query": "BERT on 1 H100 GPU with batch size 32",
+            "category": "nlp",
+            "scale": "tiny"
+        },
+        {
+            "id": 25,
+            "query": "ResNet-50 on 512 H100 GPUs",
+            "category": "vision",
+            "scale": "xlarge"
+        },
+        {
+            "id": 26,
+            "query": "Diffusion on 8 A100 GPUs with batch size 32",
+            "category": "generative",
+            "scale": "small"
+        },
+        {
+            "id": 27,
+            "query": "SSD on 32 H100 GPUs with batch size 256",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 28,
+            "query": "BERT on 32 A100 GPUs with batch size 1024",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 29,
+            "query": "Unet3D on 4 L40S GPUs",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 30,
+            "query": "GPT3 on 64 A100 GPUs with batch size 512",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 31,
+            "query": "ResNet-152 on 16 H200 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 32,
+            "query": "DLRM on 8 H100 GPUs with batch size 2048",
+            "category": "recommendation",
+            "scale": "small"
+        },
+        {
+            "id": 33,
+            "query": "RNNT on 64 A100 GPUs",
+            "category": "speech",
+            "scale": "medium"
+        },
+        {
+            "id": 34,
+            "query": "Diffusion on 128 H100 GPUs with batch size 256",
+            "category": "generative",
+            "scale": "large"
+        },
+        {
+            "id": 35,
+            "query": "MaskRCNN on 32 A100 GPUs with batch size 64",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 36,
+            "query": "BERT on 64 V100 GPUs",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 37,
+            "query": "ResNet-50 on 4 A30 GPUs with batch size 128",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 38,
+            "query": "GPT3 on 1024 H100 GPUs",
+            "category": "nlp",
+            "scale": "xlarge"
+        },
+        {
+            "id": 39,
+            "query": "SSD on 8 L4 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 40,
+            "query": "Unet3D on 128 A100 GPUs with batch size 64",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 41,
+            "query": "DLRM on 256 H100 GPUs with batch size 32768",
+            "category": "recommendation",
+            "scale": "large"
+        },
+        {
+            "id": 42,
+            "query": "BERT on 128 L40S GPUs",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 43,
+            "query": "Diffusion on 16 H200 GPUs",
+            "category": "generative",
+            "scale": "small"
+        },
+        {
+            "id": 44,
+            "query": "ResNet-101 on 32 A100 GPUs with batch size 512",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 45,
+            "query": "RNNT on 32 H100 GPUs with batch size 512",
+            "category": "speech",
+            "scale": "medium"
+        },
+        {
+            "id": 46,
+            "query": "MaskRCNN on 64 H100 GPUs",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 47,
+            "query": "GPT3 on 16 A100 GPUs with batch size 256",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 48,
+            "query": "SSD on 128 A100 GPUs with batch size 1024",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 49,
+            "query": "BERT on 256 H100 GPUs with batch size 2048",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 50,
+            "query": "Unet3D on 8 V100 GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 51,
+            "query": "DLRM on 128 A100 GPUs",
+            "category": "recommendation",
+            "scale": "large"
+        },
+        {
+            "id": 52,
+            "query": "Diffusion on 256 H100 GPUs with batch size 512",
+            "category": "generative",
+            "scale": "large"
+        },
+        {
+            "id": 53,
+            "query": "ResNet-50 on 16 L40S GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 54,
+            "query": "RNNT on 128 H100 GPUs",
+            "category": "speech",
+            "scale": "large"
+        },
+        {
+            "id": 55,
+            "query": "BERT on 512 A100 GPUs",
+            "category": "nlp",
+            "scale": "xlarge"
+        },
+        {
+            "id": 56,
+            "query": "MaskRCNN on 4 RTX-4090 GPUs with batch size 32",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 57,
+            "query": "GPT3 on 32 H200 GPUs",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 58,
+            "query": "SSD on 256 H100 GPUs",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 59,
+            "query": "Unet3D on 64 H200 GPUs with batch size 128",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 60,
+            "query": "DLRM on 4 A100 GPUs with batch size 1024",
+            "category": "recommendation",
+            "scale": "tiny"
+        },
+        {
+            "id": 61,
+            "query": "Diffusion on 4 H100 GPUs",
+            "category": "generative",
+            "scale": "tiny"
+        },
+        {
+            "id": 62,
+            "query": "ResNet-152 on 64 H100 GPUs with batch size 1024",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 63,
+            "query": "BERT on 8 L4 GPUs",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 64,
+            "query": "RNNT on 256 A100 GPUs",
+            "category": "speech",
+            "scale": "large"
+        },
+        {
+            "id": 65,
+            "query": "MaskRCNN on 128 H100 GPUs with batch size 128",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 66,
+            "query": "GPT3 on 8 V100 GPUs",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 67,
+            "query": "SSD on 16 A100 GPUs with batch size 512",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 68,
+            "query": "Unet3D on 256 H100 GPUs",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 69,
+            "query": "DLRM on 512 A100 GPUs",
+            "category": "recommendation",
+            "scale": "xlarge"
+        },
+        {
+            "id": 70,
+            "query": "Diffusion on 64 A100 GPUs with batch size 128",
+            "category": "generative",
+            "scale": "medium"
+        },
+        {
+            "id": 71,
+            "query": "BERT on 16 A30 GPUs with batch size 256",
+            "category": "nlp",
+            "scale": "small"
+        },
+        {
+            "id": 72,
+            "query": "ResNet-50 on 1 H100 GPU",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 73,
+            "query": "RNNT on 4 L40S GPUs",
+            "category": "speech",
+            "scale": "tiny"
+        },
+        {
+            "id": 74,
+            "query": "MaskRCNN on 256 A100 GPUs",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 75,
+            "query": "GPT3 on 64 H100 GPUs with batch size 2048",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 76,
+            "query": "SSD on 4 V100 GPUs",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 77,
+            "query": "Unet3D on 16 A100 GPUs with batch size 64",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 78,
+            "query": "DLRM on 64 H200 GPUs",
+            "category": "recommendation",
+            "scale": "medium"
+        },
+        {
+            "id": 79,
+            "query": "Diffusion on 512 H100 GPUs",
+            "category": "generative",
+            "scale": "xlarge"
+        },
+        {
+            "id": 80,
+            "query": "BERT on 4 H100 GPUs with batch size 128",
+            "category": "nlp",
+            "scale": "tiny"
+        },
+        {
+            "id": 81,
+            "query": "ResNet-101 on 8 L40S GPUs",
+            "category": "vision",
+            "scale": "small"
+        },
+        {
+            "id": 82,
+            "query": "RNNT on 8 H100 GPUs with batch size 256",
+            "category": "speech",
+            "scale": "small"
+        },
+        {
+            "id": 83,
+            "query": "MaskRCNN on 2 A100 GPUs",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 84,
+            "query": "GPT3 on 128 A100 GPUs",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 85,
+            "query": "SSD on 512 H100 GPUs",
+            "category": "vision",
+            "scale": "xlarge"
+        },
+        {
+            "id": 86,
+            "query": "Unet3D on 2 H100 GPUs",
+            "category": "vision",
+            "scale": "tiny"
+        },
+        {
+            "id": 87,
+            "query": "DLRM on 16 A100 GPUs with batch size 4096",
+            "category": "recommendation",
+            "scale": "small"
+        },
+        {
+            "id": 88,
+            "query": "Diffusion on 128 A100 GPUs",
+            "category": "generative",
+            "scale": "large"
+        },
+        {
+            "id": 89,
+            "query": "BERT on 64 H100 GPUs with batch size 512",
+            "category": "nlp",
+            "scale": "medium"
+        },
+        {
+            "id": 90,
+            "query": "ResNet-50 on 32 V100 GPUs",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 91,
+            "query": "RNNT on 16 A100 GPUs",
+            "category": "speech",
+            "scale": "small"
+        },
+        {
+            "id": 92,
+            "query": "MaskRCNN on 512 H100 GPUs",
+            "category": "vision",
+            "scale": "xlarge"
+        },
+        {
+            "id": 93,
+            "query": "GPT3 on 4 A100 GPUs",
+            "category": "nlp",
+            "scale": "tiny"
+        },
+        {
+            "id": 94,
+            "query": "SSD on 64 V100 GPUs",
+            "category": "vision",
+            "scale": "medium"
+        },
+        {
+            "id": 95,
+            "query": "Unet3D on 512 H100 GPUs",
+            "category": "vision",
+            "scale": "xlarge"
+        },
+        {
+            "id": 96,
+            "query": "DLRM on 2 A100 GPUs",
+            "category": "recommendation",
+            "scale": "tiny"
+        },
+        {
+            "id": 97,
+            "query": "Diffusion on 16 A100 GPUs with batch size 64",
+            "category": "generative",
+            "scale": "small"
+        },
+        {
+            "id": 98,
+            "query": "BERT on 128 H100 GPUs",
+            "category": "nlp",
+            "scale": "large"
+        },
+        {
+            "id": 99,
+            "query": "ResNet-152 on 256 H100 GPUs",
+            "category": "vision",
+            "scale": "large"
+        },
+        {
+            "id": 100,
+            "query": "RNNT on 512 H100 GPUs",
+            "category": "speech",
+            "scale": "xlarge"
+        }
+    ]
+}

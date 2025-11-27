@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data & Models (mounted at runtime)
+data/
+models/
+experiments/
+*.csv
+*.pkl
+
+# Misc
+*.log
+.DS_Store

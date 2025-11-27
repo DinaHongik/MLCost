@@ -1,0 +1,18 @@
+{
+    "data_pipeline": {
+        "raw_dir": "./data/raw",
+        "training_urls": [
+            "https://github.com/mlcommons/training_results_v0.5.git",
+            "https://github.com/mlcommons/training_results_v0.6.git",
+            "https://github.com/mlcommons/training_results_v0.7.git",
+            "https://github.com/mlcommons/training_results_v1.0.git",
+            "https://github.com/mlcommons/training_results_v1.1.git",
+            "https://github.com/mlcommons/training_results_v2.0.git",
+            "https://github.com/mlcommons/training_results_v2.1.git",
+            "https://github.com/mlcommons/training_results_v3.0.git",
+            "https://github.com/mlcommons/training_results_v3.1.git",
+            "https://github.com/mlcommons/training_results_v4.0.git",
+            "https://github.com/mlcommons/training_results_v4.1.git"
+        ]
+    }
+}
